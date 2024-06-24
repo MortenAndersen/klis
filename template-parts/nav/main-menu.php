@@ -5,10 +5,36 @@ if (has_nav_menu('main-menu')):
 		'container' => false,
 		'items_wrap' => '<ul class="first-lvl">' . "\n" . '%3$s</ul>',
 	);
-	
-
-
 endif;
+  if (has_nav_menu('main-menu2')):
+    $main_nav2 = array(
+      'theme_location' => 'main-menu2',
+      'container' => false,
+      'items_wrap' => '<ul class="first-lvl">' . "\n" . '%3$s</ul>',
+    );
+endif;
+if (has_nav_menu('main-menu3')):
+  $main_nav3 = array(
+    'theme_location' => 'main-menu3',
+    'container' => false,
+    'items_wrap' => '<ul class="first-lvl">' . "\n" . '%3$s</ul>',
+  );
+endif;
+if (has_nav_menu('main-menu4')):
+  $main_nav4 = array(
+    'theme_location' => 'main-menu4',
+    'container' => false,
+    'items_wrap' => '<ul class="first-lvl">' . "\n" . '%3$s</ul>',
+  );
+endif;
+if (has_nav_menu('main-menu5')):
+  $main_nav5 = array(
+    'theme_location' => 'main-menu5',
+    'container' => false,
+    'items_wrap' => '<ul class="first-lvl">' . "\n" . '%3$s</ul>',
+  );
+endif;
+
 ?>
   <div id="menu-toggle" class="menu-con">
       <div class="menu-inner">
@@ -43,108 +69,24 @@ endif;
         </div>
         <nav>
           <div>
-            <p class="menu-title">Undervining</p>
+            <p class="menu-title">Om Skolen</p>
 						<?php wp_nav_menu($main_nav); ?>
           </div>
           <div>
-            <p class="menu-title">Fællesskab</p>
-            <ul>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li><a href="#">Purus sapient</a></li>
-              <li><a href="#">Officiis temporibus</a></li>
-              <li>
-                <a href="#">Asperiores, dictumst nulla</a>
-                <ul class="sub-menu">
-                  <li><a href="#">Semper</a></li>
-                  <li><a href="#">Illum error commodi </a></li>
-                  <li><a href="#">Necessitatibus! Esse</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li>
-                <a href="#">Officiis temporibus</a>
-                <ul>
-                  <li><a href="#">Semper</a></li>
-                  <li><a href="#">Necessitatibus! Esse</a></li>
-                  <li><a href="#">Recusandae</a></li>
-                </ul>
-              </li>
-            </ul>
+          <p class="menu-title">Forældre på KLS</p>
+          <?php wp_nav_menu($main_nav2); ?>
           </div>
           <div>
-            <p class="menu-title">Det praktiske</p>
-            <ul>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li><a href="#">Purus sapient</a></li>
-              <li><a href="#">Officiis temporibus</a></li>
-              <li>
-                <a href="#">Asperiores, dictumst nulla</a>
-                <ul class="sub-menu">
-                  <li><a href="#">Semper</a></li>
-                  <li><a href="#">Illum error commodi </a></li>
-                  <li><a href="#">Necessitatibus! Esse</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li>
-                <a href="#">Officiis temporibus</a>
-                <ul>
-                  <li><a href="#">Semper</a></li>
-                  <li><a href="#">Necessitatibus! Esse</a></li>
-                  <li><a href="#">Recusandae</a></li>
-                </ul>
-              </li>
-            </ul>
+          <p class="menu-title">Traditioner</p>
+          <?php wp_nav_menu($main_nav3); ?>
           </div>
           <div>
-            <p class="menu-title">Årets gang</p>
-            <ul>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li><a href="#">Purus sapient</a></li>
-              <li><a href="#">Officiis temporibus</a></li>
-              <li>
-                <a href="#">Asperiores, dictumst nulla</a>
-                <ul class="sub-menu">
-                  <li><a href="#">Semper</a></li>
-                  <li><a href="#">Illum error commodi </a></li>
-                  <li><a href="#">Necessitatibus! Esse</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li>
-                <a href="#">Officiis temporibus</a>
-                <ul>
-                  <li><a href="#">Semper</a></li>
-                  <li><a href="#">Necessitatibus! Esse</a></li>
-                  <li><a href="#">Recusandae</a></li>
-                </ul>
-              </li>
-            </ul>
+          <p class="menu-title">Elev på KLS</p>
+          <?php wp_nav_menu($main_nav4); ?>
           </div>
           <div>
-            <p class="menu-title">Inspiration</p>
-            <ul>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li><a href="#">Purus sapient</a></li>
-              <li><a href="#">Officiis temporibus</a></li>
-              <li>
-                <a href="#">Asperiores, dictumst nulla</a>
-                <ul class="sub-menu">
-                  <li><a href="#">Semper</a></li>
-                  <li><a href="#">Illum error commodi </a></li>
-                  <li><a href="#">Necessitatibus! Esse</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li>
-                <a href="#">Officiis temporibus</a>
-                <ul>
-                  <li><a href="#">Semper</a></li>
-                  <li><a href="#">Necessitatibus! Esse</a></li>
-                  <li><a href="#">Recusandae</a></li>
-                </ul>
-              </li>
-            </ul>
+          <p class="menu-title">Praktisk info</p>
+          <?php wp_nav_menu($main_nav5); ?>
           </div>
         </nav>
         <div class="menu__info">Quick info her omkring kontakt etc.</div>
