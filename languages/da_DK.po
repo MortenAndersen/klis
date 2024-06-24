@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: web\n"
+"POT-Creation-Date: 2024-02-21 13:27+0100\n"
+"PO-Revision-Date: 2024-02-21 13:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: functions.php:46
+msgid "Main Menu"
+msgstr "Hovedmenu"
+
+#: inc/theme-functions.php:5
+msgid "Read More"
+msgstr "Læs mere"
+
+#: inc/theme-functions.php:11
+msgid "+"
+msgstr ""
+
+#: inc/theme-functions.php:18
+msgid "Go Back"
+msgstr "Tilbage"
+
+#: inc/widgets.php:7
+msgid "Aside left"
+msgstr "Venstre sidebar"
+
+#: inc/widgets.php:9
+msgid "Venstre sidebar"
+msgstr ""
+
+#: inc/widgets.php:19
+msgid "Aside Indlæg"
+msgstr ""
+
+#: inc/widgets.php:21
+msgid "Sidebar på Indlæg"
+msgstr ""
+
+#: inc/widgets.php:31
+msgid "Aside right"
+msgstr "Højre sidebar"
+
+#: inc/widgets.php:33
+msgid "Højre sidebar"
+msgstr ""
+
+#: inc/widgets.php:45
+msgid "Footer"
+msgstr ""
+
+#: inc/widgets.php:47
+msgid "Sidefod"
+msgstr ""
+
+#: inc/widgets.php:60
+msgid "404"
+msgstr ""
+
+#: inc/widgets.php:62
+msgid "404 siden"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "clean"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/MortenAndersen/Webspeed"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Starter theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Morten Andersen"
+msgstr ""
+
+#~ msgid "edit"
+#~ msgstr "ret"

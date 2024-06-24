@@ -1,0 +1,56 @@
+body {
+    overflow-wrap: break-word;
+    font-family: system-ui,sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+img {
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: .75rem;
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    aspect-ratio: 16/9;
+    height: auto;
+    width: 100%;
+    margin-block: 1rem;
+}
+.go-back-con {
+    margin: 2rem 0;
+}
+.go-back {
+    border: 1px solid #ddd;
+    color: inherit;
+    border-radius: 100vmax;
+    padding: 0.25em 2em 0.25em 1.6em;
+    transition: 1s all;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    &:hover {
+        box-shadow: 0 0 10px rgba(51,51,51,.25);
+        -webkit-filter: none;
+        filter: none;
+    }
+}
+.go-back svg {
+    opacity: .4;
+    transition: 1s all;
+    fill: #999;
+}
+
+a {
+    text-decoration: underline;
+    &:hover {
+        text-decoration: none;
+    }
+}
+nav {
+    a {
+        text-decoration: none;
+    }
+}

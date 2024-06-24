@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  gap: var(--gap);
+  gap: clamp(1rem, 6vw, 5rem);
+}
+@media (min-width: 800px) {
+  .g-2 {
+    grid-template-columns: 1fr 2fr;
+  }
+}

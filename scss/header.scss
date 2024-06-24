@@ -1,0 +1,173 @@
+.header {
+  margin-top: 1rem;
+}
+@media (width > 800px) {
+  .header {
+    position: relative;
+    min-height: 180px;
+  }
+}
+
+.navn {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 200;
+  transition: 0.5s opacity;
+  display: flex;
+  align-items: center;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.navn__logo {
+  max-width: 60px;
+  margin-right: 0.75rem;
+}
+
+.logo {
+  position: relative;
+  display: none;
+}
+.logo__img {
+  max-width: 150px;
+  margin: 0 auto;
+}
+@media (min-width: 1130px) {
+  .logo {
+    display: block;
+  }
+  .navn__logo {
+    display: none;
+  }
+}
+
+.hamburger {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+  span {
+    height: 3px;
+    width: 30px;
+    background: #fff;
+    border: 1px solid;
+    border-color: transparent;
+    transition: 0.5s all;
+  }
+  &.active {
+    span:nth-child(1) {
+      transform: rotate(45deg);
+      transform-origin: 10px;
+    }
+    span:nth-child(2) {
+      display: none;
+    }
+    span:nth-child(3) {
+      transform: rotate(-45deg);
+      transform-origin: 10px;
+    }
+  }
+}
+.menu-icon {
+  margin-top: auto;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    span {
+      background: transparent;
+      border-color: #fff;
+    }
+  }
+}
+
+.breadcrumb {
+  display: none;
+  margin-top: 1rem;
+  opacity: 0.8;
+  a {
+    transition: 0.5s;
+
+    &:hover {
+      color: #67ad73;
+    }
+  }
+  [aria-current] {
+    opacity: 0.5;
+  }
+}
+
+@media (width > 800px) {
+  .breadcrumb {
+    display: block;
+  }
+}
+
+#home {
+  fill: #fff;
+  transition: 0.5s;
+}
+
+.login {
+  line-height: 1;
+  display: flex;
+  gap: 0.5rem;
+}
+.login__link {
+  cursor: pointer;
+  transition: 0.5s opacity;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
+}
+.login__home {
+  &:hover #home {
+    fill: var(--farve3);
+  }
+}
+.intra {
+  transition: 0.5s;
+  background: #1c9182;
+  color: #fff;
+  line-height: 32px;
+  width: 32px;
+  text-align: center;
+  border-radius: 5px;
+  &:hover {
+    transform: scale(1.2);
+    background: var(--logo-roed);
+  }
+  span {
+    opacity: 0.6;
+  }
+}
+
+.l-header-first {
+  --afs: 14px;
+  border-bottom: 1px solid;
+  margin-bottom: var(--afs);
+  padding-bottom: var(--afs);
+}
+.l-right {
+  margin-left: auto;
+  align-items: end;
+  flex-flow: row;
+  gap: 1rem;
+  display: none;
+}
+.logo {
+  position: absolute;
+  left: calc(50% - 75px);
+  top: 0;
+}
+@media (width > 800px) {
+  .l-header-first,
+  .l-header-second {
+    display: flex;
+    flex-flow: row;
+  }
+  .l-right {
+    display: flex;
+  }
+}

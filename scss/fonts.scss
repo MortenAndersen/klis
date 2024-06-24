@@ -1,0 +1,58 @@
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+
+  .footer &,
+  .header & {
+    text-decoration: none;
+  }
+
+  &[href^="tel:"] {
+    text-decoration: none;
+    transition: 0.5s;
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+    }
+  }
+}
+.small {
+  font-size: var(--small-font);
+}
+p {
+  margin-bottom: var(--gap);
+  font-weight: 300;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 3vw, 3.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.04rem;
+  margin: 0 0 0.625rem 0;
+  text-wrap: balance;
+  max-width: 50ch;
+  font-weight: 300;
+}
+h2 {
+  font-size: clamp(1.4rem, 3vw, 1.7rem);
+}
+
+strong,
+b {
+  font-weight: 600;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin-block: 2rem;
+}
+ul li {
+  list-style-type: disc;
+}
+ol li {
+  list-style-type: decimal;
+}

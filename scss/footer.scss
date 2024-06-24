@@ -1,0 +1,18 @@
+.footer {
+  margin-top: var(--gap);
+  padding-bottom: var(--gap);
+
+  .content {
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+  }
+  svg {
+    fill: #fff;
+    transition: 0.5s;
+  }
+  a:hover {
+    svg {
+      fill: var(--logo-roed);
+    }
+  }
+}
