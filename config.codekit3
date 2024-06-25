@@ -69,6 +69,14 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
+	"/inc/bobler-acf.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/inc/bobler-acf.php",
+		"oF": 0
+		},
 	"/inc/widgets.php": {
 		"cB": 0,
 		"ft": 8192,
