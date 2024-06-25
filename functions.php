@@ -82,3 +82,6 @@ add_action('after_setup_theme', 'klis_localize_theme');
 
 // Theme Widget
 require get_parent_theme_file_path('/inc/widgets.php');
+
+// ACF
+require get_parent_theme_file_path('/inc/bobler-acf.php');

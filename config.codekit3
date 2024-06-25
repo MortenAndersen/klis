@@ -131,6 +131,19 @@
 		"oAP": "/page.php",
 		"oF": 0
 		},
+	"/scss/card.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/card.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
 	"/scss/elements.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -319,6 +332,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/template-parts/content/blog-loop.php",
+		"oF": 0
+		},
+	"/template-parts/content/bobler-loop.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/content/bobler-loop.php",
 		"oF": 0
 		},
 	"/template-parts/content/page-search.php": {
