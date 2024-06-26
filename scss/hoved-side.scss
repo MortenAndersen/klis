@@ -7,7 +7,7 @@
   align-items: end;
   flex-flow: column;
   margin-bottom: 2rem;
-  border: var(--border-medie);
+  box-shadow: var(--shadow-medie);
 }
 .header-content {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.5), black);
