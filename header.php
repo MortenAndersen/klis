@@ -69,11 +69,6 @@
           ?>
     </header>
 
-<header>
-  
-
-
-</header>
   <?php
 wp_body_open();
 
