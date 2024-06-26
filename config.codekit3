@@ -131,6 +131,14 @@
 		"oAP": "/languages/da_DK.po",
 		"oF": 0
 		},
+	"/page-hovedsider.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-hovedsider.php",
+		"oF": 0
+		},
 	"/page.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -326,14 +334,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/template-parts/content/article-loop.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/template-parts/content/article-loop.php",
-		"oF": 0
-		},
 	"/template-parts/content/blog-loop.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -350,6 +350,22 @@
 		"oAP": "/template-parts/content/bobler-loop.php",
 		"oF": 0
 		},
+	"/template-parts/content/hovedsider-loop.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/content/hovedsider-loop.php",
+		"oF": 0
+		},
+	"/template-parts/content/normal-loop.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/content/normal-loop.php",
+		"oF": 0
+		},
 	"/template-parts/content/page-search.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -364,6 +380,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/template-parts/content/search-form.php",
+		"oF": 0
+		},
+	"/template-parts/nav/child-nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/nav/child-nav.php",
 		"oF": 0
 		},
 	"/template-parts/nav/main-menu.php": {

@@ -67,25 +67,20 @@ endif;
             <a href="#" class="fokus-btn">Nye forældre</a>
           </div>
         </div>
-        <nav>
+        <nav class="main-menu">
           <div>
-            <p class="menu-title">Om Skolen</p>
 						<?php wp_nav_menu($main_nav); ?>
           </div>
           <div>
-          <p class="menu-title">Forældre på KLS</p>
           <?php wp_nav_menu($main_nav2); ?>
           </div>
           <div>
-          <p class="menu-title">Traditioner</p>
           <?php wp_nav_menu($main_nav3); ?>
           </div>
           <div>
-          <p class="menu-title">Elev på KLS</p>
           <?php wp_nav_menu($main_nav4); ?>
           </div>
           <div>
-          <p class="menu-title">Praktisk info</p>
           <?php wp_nav_menu($main_nav5); ?>
           </div>
         </nav>
