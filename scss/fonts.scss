@@ -28,7 +28,7 @@ p {
 }
 
 h1 {
-  font-size: clamp(1.8rem, 3vw, 3.5rem);
+  font-size: clamp(1.8rem, 3.5vw, 4rem);
   line-height: 1.1;
   letter-spacing: -0.04rem;
   margin: 0 0 0.625rem 0;
@@ -37,7 +37,7 @@ h1 {
   font-weight: 300;
 }
 h2 {
-  font-size: clamp(1.4rem, 3vw, 1.7rem);
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
 }
 
 strong,

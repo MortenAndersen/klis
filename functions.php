@@ -49,6 +49,10 @@ if (!function_exists('web_setup')):
 		// Logo
 		add_theme_support('custom-logo');
 
+		// Images
+		add_theme_support('post-thumbnails');
+		add_image_size('cirkel', 700, 700, true);
+
 		// Menu
 		register_nav_menus(array(
 			'main-menu' => __('Om skolen', 'klis-domain'),

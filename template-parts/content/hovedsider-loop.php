@@ -5,11 +5,24 @@ echo '<div class="content grid">';
     echo '<h1>404<br />- siden findes desværre ikke!</h1>';
    } 
     while (have_posts()): the_post();
-        echo '<article>';
-            the_title('<h1>', '</h1>');
+    $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); 
+      echo '<article>';
+      if ( $featured_img_url) {
+        echo '<header class="content-header" style="background-image: linear-gradient(to right, transparent, black), url(' . $featured_img_url . ')">';
+      } else {
+        echo '<header class="content-header">';
+      }
+          echo '<div class="header-content">';
+            echo '<div class="header-content-title">';
+              the_title('<h1>', '</h1>');
+              echo '<h2>Her er en del-overskrift</h2>';
+            echo '</div>';
             get_template_part('template-parts/nav/child', 'nav');
-            the_content();
-        echo '</article>';
+          echo '</div>';
+        echo '</header>';
+        
+          the_content();
+      echo '</article>';
     endwhile;
     echo '</div>';
 echo '</main>';
