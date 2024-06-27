@@ -4,9 +4,9 @@ echo '<div class="l-wrap">';
 echo '<div class="content card">';
 
 
-
-if (is_page( 1950 )) {
-$data = 2366;
+// Om skolen
+if (is_page( 16 )) {
+$data = 147;
 } else {
   $data = 0;
 }
