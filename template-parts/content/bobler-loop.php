@@ -12,6 +12,18 @@ $data = 147;
 elseif (is_page( 28 )) {
   $data = 149;
   }
+// Traditioner
+elseif (is_page( 55 )) {
+  $data = 150;
+  }
+// Elev på KLS
+elseif (is_page( 85 )) {
+  $data = 151;
+  }
+  // Praktisk info
+elseif (is_page( 106 )) {
+  $data = 152;
+  }
    else {
   $data = 0;
 }
