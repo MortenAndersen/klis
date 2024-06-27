@@ -7,7 +7,12 @@ echo '<div class="content card">';
 // Om skolen
 if (is_page( 16 )) {
 $data = 147;
-} else {
+}
+// Forøædre på KLS
+elseif (is_page( 28 )) {
+  $data = 149;
+  }
+   else {
   $data = 0;
 }
 $args = array(
