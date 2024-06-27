@@ -26,4 +26,6 @@ echo '<div class="content grid">';
     endwhile;
     echo '</div>';
 echo '</main>';
+
+
 get_template_part('template-parts/content/bobler', 'loop');

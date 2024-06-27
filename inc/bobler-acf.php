@@ -1,19 +1,19 @@
-<?php 
+<?php
 add_action( 'acf/include_fields', function() {
 	if ( ! function_exists( 'acf_add_local_field_group' ) ) {
 		return;
 	}
 
 	acf_add_local_field_group( array(
-	'key' => 'group_667a947d95ad5',
-	'title' => 'Klis Cirkler',
+	'key' => 'group_667c161b9e12f',
+	'title' => 'Klis Boble',
 	'fields' => array(
 		array(
-			'key' => 'field_667a9a621b425',
-			'label' => 'Bobler',
-			'name' => 'bobler',
+			'key' => 'field_667c161b14e18',
+			'label' => 'link',
+			'name' => 'link',
 			'aria-label' => '',
-			'type' => 'repeater',
+			'type' => 'link',
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
@@ -22,100 +22,7 @@ add_action( 'acf/include_fields', function() {
 				'class' => '',
 				'id' => '',
 			),
-			'layout' => 'table',
-			'pagination' => 0,
-			'min' => 0,
-			'max' => 0,
-			'collapsed' => '',
-			'button_label' => 'Add Row',
-			'rows_per_page' => 20,
-			'sub_fields' => array(
-				array(
-					'key' => 'field_667a9aa41b426',
-					'label' => 'Titel',
-					'name' => 'titel',
-					'aria-label' => '',
-					'type' => 'text',
-					'instructions' => '',
-					'required' => 0,
-					'conditional_logic' => 0,
-					'wrapper' => array(
-						'width' => '',
-						'class' => '',
-						'id' => '',
-					),
-					'default_value' => '',
-					'maxlength' => '',
-					'placeholder' => '',
-					'prepend' => '',
-					'append' => '',
-					'parent_repeater' => 'field_667a9a621b425',
-				),
-				array(
-					'key' => 'field_667a9aae1b427',
-					'label' => 'Tekst',
-					'name' => 'tekst',
-					'aria-label' => '',
-					'type' => 'textarea',
-					'instructions' => '',
-					'required' => 0,
-					'conditional_logic' => 0,
-					'wrapper' => array(
-						'width' => '',
-						'class' => '',
-						'id' => '',
-					),
-					'default_value' => '',
-					'maxlength' => '',
-					'rows' => '',
-					'placeholder' => '',
-					'new_lines' => '',
-					'parent_repeater' => 'field_667a9a621b425',
-				),
-				array(
-					'key' => 'field_667a9abe1b428',
-					'label' => 'Billede',
-					'name' => 'billede',
-					'aria-label' => '',
-					'type' => 'image',
-					'instructions' => '',
-					'required' => 0,
-					'conditional_logic' => 0,
-					'wrapper' => array(
-						'width' => '',
-						'class' => '',
-						'id' => '',
-					),
-					'return_format' => 'url',
-					'library' => 'all',
-					'min_width' => '',
-					'min_height' => '',
-					'min_size' => '',
-					'max_width' => '',
-					'max_height' => '',
-					'max_size' => '',
-					'mime_types' => '',
-					'preview_size' => 'medium',
-					'parent_repeater' => 'field_667a9a621b425',
-				),
-				array(
-					'key' => 'field_667a9acc1b429',
-					'label' => 'Link',
-					'name' => 'link',
-					'aria-label' => '',
-					'type' => 'link',
-					'instructions' => '',
-					'required' => 0,
-					'conditional_logic' => 0,
-					'wrapper' => array(
-						'width' => '',
-						'class' => '',
-						'id' => '',
-					),
-					'return_format' => 'array',
-					'parent_repeater' => 'field_667a9a621b425',
-				),
-			),
+			'return_format' => 'array',
 		),
 	),
 	'location' => array(
@@ -123,7 +30,7 @@ add_action( 'acf/include_fields', function() {
 			array(
 				'param' => 'post_type',
 				'operator' => '==',
-				'value' => 'page',
+				'value' => 'bobler',
 			),
 		),
 	),
@@ -138,5 +45,3 @@ add_action( 'acf/include_fields', function() {
 	'show_in_rest' => 0,
 ) );
 } );
-
-

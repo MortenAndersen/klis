@@ -1,32 +1,47 @@
 <?php 
-echo '<div class="l-wrap card">';
-      
-if( have_rows('bobler') ):
 
-    while( have_rows('bobler') ) : the_row();
+echo '<div class="l-wrap">';
+echo '<div class="content card">';
 
-        $sub_titel = get_sub_field('titel');
-        $sub_tekst = get_sub_field('tekst');
-        $sub_billede = get_sub_field('billede');
-        $sub_link = get_sub_field('link');
-        if ($sub_link){
-          $link_url = $sub_link['url'];
-          $link_title = $sub_link['title'];
-          $link_target = $sub_link['target'] ? $sub_link['target'] : '_self';
+
+
+if (is_page( 1950 )) {
+$data = 2366;
+} else {
+  $data = 0;
+}
+$args = array(
+    'post_type' => 'bobler',
+    'post__not_in' => array($data),
+    'posts_per_page' => -1
+);
+$the_query = new WP_Query( $args ); 
+
+ if ( $the_query->have_posts() ) :
+
+ while ( $the_query->have_posts() ) : 
+  
+  $the_query->the_post();
+  $boble_img_url = get_the_post_thumbnail_url(get_the_ID(),'cirkel'); 
+  $link = get_field('link');
+        if ($link){
+          $link_url = $link['url'];
+          $link_title = $link['title'];
+          $link_target = $link['target'] ? $link['target'] : '_self';
         }
+  echo '<a href="' . $link_url . '" target="' . $link_target . '" class="card__link" title="' . $link_title . '" style="background-image: url(' . $boble_img_url . ')">';
+  echo '<div class="card__txt">';
+  echo '<div class="card__title">' . get_the_title() . '</div>';
+  echo ' <div class="card__body">' . get_the_content() . '</div>';
+  echo '<div class="card__more">Læs mere her</div>';
+echo '</div>';
+        
+  echo '</a>';
+ endwhile;
 
-    echo '<div class="card__item">';
-      echo '<a href="' . esc_url($link_url) . '" class="card__link" style="background-image: url(' . $sub_billede . ')" target="' . esc_attr($link_target) . '">';
-        echo '<div class="card__txt">';
-          echo '<div class="card__title">' . $sub_titel . '</div>';
-          echo ' <div class="card__body">' . $sub_tekst . '</div>';
-          echo '<div class="card__more">Læs mere her</div>';
-        echo '</div>';
-      echo '</a>';
-    echo '</div>';
+wp_reset_postdata(); 
 
-    endwhile;
-endif;
+ endif; 
 
-    
+ echo '</div>';  
 echo '</div>';

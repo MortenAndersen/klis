@@ -13,8 +13,8 @@
   --farve2: #2c2e2e;
   --farve3: #9507b4;
   --farve4: #fff;
-  --border: 2px solid #fff;
-  --shadow-medie: 0 0 2px rgba(0, 0, 0.1);
+  --border: 1px solid rgba(255, 255, 255, 0.7);
+  --shadow-medie: 0 0 4px rgba(0, 0, 0, 0.5);
   @media (min-width: 60rem) {
     --gap: 2rem;
   }

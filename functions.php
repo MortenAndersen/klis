@@ -51,7 +51,7 @@ if (!function_exists('web_setup')):
 
 		// Images
 		add_theme_support('post-thumbnails');
-		add_image_size('cirkel', 700, 700, true);
+		add_image_size('cirkel', 500, 500, true);
 
 		// Menu
 		register_nav_menus(array(
@@ -86,6 +86,9 @@ add_action('after_setup_theme', 'klis_localize_theme');
 
 // Theme Widget
 require get_parent_theme_file_path('/inc/widgets.php');
+
+// Bobler
+require get_parent_theme_file_path('/inc/bobler.php');
 
 // ACF
 require get_parent_theme_file_path('/inc/bobler-acf.php');
