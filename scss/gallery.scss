@@ -1,0 +1,15 @@
+.gallery-list {
+  border-top: var(--border);
+  padding-top: var(--gap);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 5fr));
+}
+.gallery-list__link {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-medie);
+  transition: 0.5s transform;
+  &:hover {
+    transform: scale(1.05);
+  }
+}

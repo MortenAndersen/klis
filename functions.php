@@ -92,3 +92,4 @@ require get_parent_theme_file_path('/inc/bobler.php');
 
 // ACF
 require get_parent_theme_file_path('/inc/bobler-acf.php');
+require get_parent_theme_file_path('/inc/page-acf.php');

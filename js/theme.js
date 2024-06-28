@@ -1,3 +1,4 @@
+// @codekit-prepend "lightbox.js" quiet;
 function moreFunction() {
   const element = document.querySelector(".more");
   element.classList.toggle("active");
