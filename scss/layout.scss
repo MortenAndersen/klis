@@ -39,9 +39,9 @@ body {
 @media (min-width: 800px) {
   .aside {
     grid-template-columns: 4fr 3fr;
-    gap: var(--gap);
+    gap: var(--gap) !important;
     aside {
-      border-left: 1px solid;
+      border-left: var(--border);
       border-top: none;
       padding-top: 0;
       padding-left: var(--gap);
