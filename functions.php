@@ -93,3 +93,10 @@ require get_parent_theme_file_path('/inc/bobler.php');
 // ACF
 require get_parent_theme_file_path('/inc/bobler-acf.php');
 require get_parent_theme_file_path('/inc/page-acf.php');
+require get_parent_theme_file_path('/inc/aside-acf.php');
+
+// Yoast ned så ACF kommer op :-)
+function move_yoast_below_acf() {
+	return 'low';
+}
+add_filter( 'wpseo_metabox_prio', 'move_yoast_below_acf');

@@ -77,6 +77,14 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
+	"/inc/aside-acf.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/inc/aside-acf.php",
+		"oF": 0
+		},
 	"/inc/bobler-acf.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -93,11 +101,11 @@
 		"oAP": "/inc/bobler.php",
 		"oF": 0
 		},
-	"/inc/Images/close.png": {
+	"/inc/images/close.png": {
 		"ft": 32768,
 		"iS": 280,
 		"oA": 0,
-		"oAP": "/inc/Images/close.png",
+		"oAP": "/inc/images/close.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -106,21 +114,21 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/inc/Images/loading.gif": {
+	"/inc/images/loading.gif": {
 		"ft": 4194304,
 		"iS": 8476,
 		"oA": 0,
-		"oAP": "/inc/Images/loading.gif",
+		"oAP": "/inc/images/loading.gif",
 		"oF": 0,
 		"opt": 0,
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
-	"/inc/Images/next.png": {
+	"/inc/images/next.png": {
 		"ft": 32768,
 		"iS": 1350,
 		"oA": 0,
-		"oAP": "/inc/Images/next.png",
+		"oAP": "/inc/images/next.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -129,11 +137,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/inc/Images/prev.png": {
+	"/inc/images/prev.png": {
 		"ft": 32768,
 		"iS": 1360,
 		"oA": 0,
-		"oAP": "/inc/Images/prev.png",
+		"oAP": "/inc/images/prev.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -457,6 +465,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/template-parts/aside/aside-loop.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/aside/aside-loop.php",
+		"oF": 0
+		},
 	"/template-parts/content/blog-loop.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -519,6 +535,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/template-parts/content/search-form.php",
+		"oF": 0
+		},
+	"/template-parts/content/video-loop.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/content/video-loop.php",
 		"oF": 0
 		},
 	"/template-parts/nav/child-nav.php": {

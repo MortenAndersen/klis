@@ -29,3 +29,22 @@ body {
   transform: translateX(-90%);
   transition: 0.5s all;
 }
+.aside {
+  aside {
+    border-top: var(--border);
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .aside {
+    grid-template-columns: 4fr 3fr;
+    gap: var(--gap);
+    aside {
+      border-left: 1px solid;
+      border-top: none;
+      padding-top: 0;
+      padding-left: var(--gap);
+    }
+  }
+}
