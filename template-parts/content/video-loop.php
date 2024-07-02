@@ -2,7 +2,7 @@
 
 // Load value.
 $iframe = get_field('video');
-
+if ($iframe){
 // Use preg_match to find iframe src.
 preg_match('/src="(.+?)"/', $iframe, $matches);
 $src = $matches[1];
@@ -24,4 +24,4 @@ $iframe = str_replace('></iframe>', ' ' . $attributes . '></iframe>', $iframe);
 echo '<div class="video">';
 echo $iframe;
 echo '</div>';
-?>
+}
