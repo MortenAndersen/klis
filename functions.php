@@ -94,6 +94,7 @@ require get_parent_theme_file_path('/inc/bobler.php');
 require get_parent_theme_file_path('/inc/bobler-acf.php');
 require get_parent_theme_file_path('/inc/page-acf.php');
 require get_parent_theme_file_path('/inc/aside-acf.php');
+require get_parent_theme_file_path('/inc/frontpage-acf.php');
 
 // Yoast ned så ACF kommer op :-)
 function move_yoast_below_acf() {

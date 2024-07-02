@@ -47,4 +47,8 @@ body {
       padding-left: var(--gap);
     }
   }
+  .front-grid {
+    grid-template-columns: 2fr 3fr;
+    gap: var(--gap) !important;
+  }
 }
