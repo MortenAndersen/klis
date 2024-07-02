@@ -1,6 +1,12 @@
 <?php
+ $tjek1 = get_field('video');
+ $tjek2 = get_field('aside');
 echo '<main class="l-wrap">';
-echo '<div class="content grid aside">';
+if ($tjek1 || $tjek2){
+    echo '<div class="content grid aside">';
+} else {
+    echo '<div class="content">';
+}
     if ( is_404() ) {
     echo '<h1>404<br />- siden findes desværre ikke!</h1>';
    } 
@@ -9,10 +15,13 @@ echo '<div class="content grid aside">';
             the_title('<h1>', '</h1>');
             the_content();
         echo '</article>';
-        echo '<aside>';
-        get_template_part('template-parts/content/video', 'loop');
-        get_template_part('template-parts/aside/aside', 'loop');
-        echo '</aside>';
+       
+        if ($tjek1 || $tjek2){
+            echo '<aside>';
+            get_template_part('template-parts/content/video', 'loop');
+            get_template_part('template-parts/aside/aside', 'loop');
+            echo '</aside>';
+        }
     endwhile;
     echo '</div>';
 echo '</main>';
