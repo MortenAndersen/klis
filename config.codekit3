@@ -117,11 +117,11 @@
 		"oAP": "/inc/hovedside-acf.php",
 		"oF": 0
 		},
-	"/inc/images/close.png": {
+	"/inc/img/close.png": {
 		"ft": 32768,
 		"iS": 280,
 		"oA": 0,
-		"oAP": "/inc/images/close.png",
+		"oAP": "/inc/img/close.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -130,21 +130,21 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/inc/images/loading.gif": {
+	"/inc/img/loading.gif": {
 		"ft": 4194304,
 		"iS": 8476,
 		"oA": 0,
-		"oAP": "/inc/images/loading.gif",
+		"oAP": "/inc/img/loading.gif",
 		"oF": 0,
 		"opt": 0,
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
-	"/inc/images/next.png": {
+	"/inc/img/next.png": {
 		"ft": 32768,
 		"iS": 1350,
 		"oA": 0,
-		"oAP": "/inc/images/next.png",
+		"oAP": "/inc/img/next.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -153,11 +153,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/inc/images/prev.png": {
+	"/inc/img/prev.png": {
 		"ft": 32768,
 		"iS": 1360,
 		"oA": 0,
-		"oAP": "/inc/images/prev.png",
+		"oAP": "/inc/img/prev.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
