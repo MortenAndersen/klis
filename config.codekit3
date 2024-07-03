@@ -109,6 +109,14 @@
 		"oAP": "/inc/frontpage-acf.php",
 		"oF": 0
 		},
+	"/inc/hovedside-acf.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/inc/hovedside-acf.php",
+		"oF": 0
+		},
 	"/inc/images/close.png": {
 		"ft": 32768,
 		"iS": 280,
