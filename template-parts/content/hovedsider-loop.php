@@ -15,7 +15,10 @@ echo '<div class="content grid">';
           echo '<div class="header-content">';
             echo '<div class="header-content-title">';
               the_title('<h1>', '</h1>');
-              echo '<h2>Her er en del-overskrift</h2>';
+              if (get_field('overskrift')){
+                echo '<h2>' . get_field('overskrift') . '</h2>';
+              }
+              
             echo '</div>';
             get_template_part('template-parts/nav/child', 'nav');
           echo '</div>';
