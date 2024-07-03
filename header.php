@@ -19,7 +19,7 @@
           <?php
           // Logo
             echo '<a href="' . home_url() . '" class="navn">';
-              echo '<img src="' . esc_url($logo[0]) . '" class="navn__logo" alt="' . get_bloginfo('name') . '" width="' . $logo[1] . '" height="' . $logo[2] . '" />';
+              echo '<img src="' . esc_url($logo[0]) . '" class="navn__logo" alt="Logo" width="' . $logo[1] . '" height="' . $logo[2] . '" />';
               echo get_bloginfo('name');
             echo '</a>';
 
@@ -64,7 +64,7 @@
 
       <?php
             echo '<a href="' . home_url() . '" class="logo">';
-              echo '<img src="' . esc_url($logo[0]) . '" class="logo__img" alt="' . get_bloginfo('name') . '" width="' . $logo[1] . '" height="' . $logo[2] . '" />';
+              echo '<img src="' . esc_url($logo[0]) . '" class="logo__img" alt="Logo" width="' . $logo[1] . '" height="' . $logo[2] . '" />';
             echo '</a>';
           ?>
     </header>
