@@ -1,0 +1,45 @@
+.filer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.file {
+  border: var(--border);
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-decoration: none;
+  line-height: 1.2;
+  position: relative;
+  img {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  &:hover {
+    .extension {
+      background: var(--farve3);
+    }
+  }
+}
+
+.file-body {
+  padding: 0.5rem;
+}
+.file-body__title {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+.file-body__decs {
+  font-size: 0.75rem;
+}
+.extension {
+  line-height: 1;
+  position: absolute;
+  border-radius: 0.5rem;
+  bottom: -10px;
+  right: 10px;
+  background: var(--farve2);
+  padding: 6px 8px;
+  border: var(--border);
+  font-size: 0.7rem;
+  transition: 0.5s background;
+}

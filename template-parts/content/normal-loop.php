@@ -1,8 +1,9 @@
 <?php
  $tjek1 = get_field('video');
  $tjek2 = get_field('aside');
+ $tjek3 = have_rows('filer');
 echo '<main class="l-wrap">';
-if ($tjek1 || $tjek2){
+if ($tjek1 || $tjek2 || $tjek3){
     echo '<div class="content grid aside">';
 } else {
     echo '<div class="content">';
@@ -16,9 +17,10 @@ if ($tjek1 || $tjek2){
             the_content();
         echo '</article>';
        
-        if ($tjek1 || $tjek2){
+        if ($tjek1 || $tjek2 || $tjek3){
             echo '<aside>';
             get_template_part('template-parts/content/video', 'loop');
+            get_template_part('template-parts/aside/filer', 'loop');
             get_template_part('template-parts/aside/aside', 'loop');
             echo '</aside>';
         }
