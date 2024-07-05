@@ -21,7 +21,7 @@
     }
   }
 }
-@media (min-width: 500px) {
+@container sidebar (min-width: 450px) {
   .filer {
     grid-template-columns: 1fr 1fr;
   }
