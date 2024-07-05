@@ -4,6 +4,9 @@
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(225px, 5fr));
+  img {
+    width: 100%;
+  }
 }
 .gallery-list__link {
   background: rgba(255, 255, 255, 0.2);

@@ -5,8 +5,6 @@
   .content {
     padding-top: 1rem;
     border-top: var(--border);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
   }
   svg {
     fill: #fff;
@@ -15,6 +13,14 @@
   a:hover {
     svg {
       fill: var(--logo-roed);
+    }
+  }
+}
+@media (min-width: 300px) {
+  .footer {
+    .content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
     }
   }
 }

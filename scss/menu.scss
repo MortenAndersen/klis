@@ -40,13 +40,11 @@ nav {
 }
 
 .main-menu {
-  --size: 400px;
   font-size: 1.2rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--size), 5fr));
-  gap: var(--gap);
   width: 100%;
   font-weight: 200;
+  display: grid;
+  gap: var(--gap);
 
   .first-lvl > li {
     &:first-of-type {
@@ -79,9 +77,9 @@ nav {
     }
   }
 }
-@media (width > 600px) {
+@media (width > 550px) {
   .main-menu {
-    --size: 225px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 5fr));
     a {
       font-size: 0.9rem;
     }
