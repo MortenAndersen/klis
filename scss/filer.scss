@@ -1,6 +1,6 @@
 .filer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+
   gap: 1rem;
   margin-bottom: 2rem;
 }
@@ -8,7 +8,7 @@
   border: var(--border);
   border-radius: 0.5rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 4fr;
   text-decoration: none;
   line-height: 1.2;
   position: relative;
@@ -19,6 +19,14 @@
     .extension {
       background: var(--farve3);
     }
+  }
+}
+@media (min-width: 500px) {
+  .filer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .file {
+    grid-template-columns: 1fr 2fr;
   }
 }
 
