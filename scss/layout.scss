@@ -29,26 +29,26 @@ body {
   transform: translateX(-90%);
   transition: 0.5s all;
 }
-.aside {
-  aside {
-    border-top: var(--border);
-    padding-top: 1rem;
-    container-type: inline-size;
-    container-name: sidebar;
-  }
+
+aside {
+  border-top: var(--border);
+  padding-top: 1rem;
+  // container-type: inline-size;
+  // container-name: sidebar;
 }
 
 @media (min-width: 800px) {
   .aside {
     grid-template-columns: 4fr 3fr;
     gap: var(--gap) !important;
-    aside {
-      border-left: var(--border);
-      border-top: none;
-      padding-top: 0;
-      padding-left: var(--gap);
-    }
   }
+  aside {
+    border-left: var(--border);
+    border-top: none;
+    padding-top: 0;
+    padding-left: var(--gap);
+  }
+
   .front-grid {
     grid-template-columns: 2fr 3fr;
     gap: var(--gap) !important;

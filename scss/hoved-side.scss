@@ -25,6 +25,9 @@
 }
 .header-content-title {
   text-align: center;
+  h2 {
+    max-width: 30ch;
+  }
 }
 .child-nav {
   order: 2;
