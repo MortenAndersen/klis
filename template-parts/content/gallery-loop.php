@@ -6,7 +6,7 @@ if( $images ): ?>
         <?php foreach( $images as $image ): ?>
 
                 <a href="<?php echo esc_url($image['url']); ?>" class="gallery-list__link" data-lightbox="klis-galleri">
-                     <img src="<?php echo esc_url($image['sizes']['medium']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                     <img src="<?php echo esc_url($image['sizes']['galleri']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                 </a>
 
         <?php endforeach; ?>
