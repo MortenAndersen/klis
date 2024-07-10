@@ -11,7 +11,7 @@
 }
 .header-content {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.5), black);
-  padding: 2rem;
+  padding: 2.5rem;
   border-radius: 1rem 0 0 1rem;
   display: flex;
   flex-flow: column;
@@ -34,14 +34,14 @@
   a {
     display: block;
     text-decoration: underline;
-    font-size: 1.1rem;
+    font-size: 1rem;
     &:hover {
       text-decoration: none;
     }
   }
   .back {
     margin-top: 2rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 }
 
