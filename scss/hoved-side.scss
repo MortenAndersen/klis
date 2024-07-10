@@ -34,13 +34,14 @@
   a {
     display: block;
     text-decoration: underline;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     &:hover {
       text-decoration: none;
     }
   }
   .back {
     margin-top: 2rem;
+    font-size: 0.9rem;
   }
 }
 

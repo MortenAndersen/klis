@@ -39,7 +39,7 @@ aside {
 
 @media (min-width: 800px) {
   .aside {
-    grid-template-columns: 4fr 3fr;
+    grid-template-columns: 3fr 2fr;
     gap: var(--gap) !important;
   }
   aside {

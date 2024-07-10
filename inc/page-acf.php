@@ -36,6 +36,26 @@ add_action( 'acf/include_fields', function() {
 			'insert' => 'append',
 			'preview_size' => 'medium',
 		),
+		array(
+			'key' => 'field_668ea85e40ca7',
+			'label' => 'PreTitle',
+			'name' => 'pre_title',
+			'aria-label' => '',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '',
+			'maxlength' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+		),
 	),
 	'location' => array(
 		array(
