@@ -52,7 +52,7 @@ if (!function_exists('web_setup')):
 		// Images
 		add_theme_support('post-thumbnails');
 		add_image_size('cirkel', 500, 500, true);
-		add_image_size('galleri', 200, 150, true);
+		add_image_size('galleri', 200, 150, true, array( 'center', 'center' ));
 		add_image_size('file', 70, 120, array( 'center', 'center' ));
 
 		// Menu

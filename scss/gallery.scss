@@ -1,13 +1,15 @@
 .gallery-list {
   border-top: var(--border);
   padding-top: var(--gap);
-  display: flex;
+  display: grid;
+  flex-flow: wrap;
   gap: 1rem;
-  //grid-template-columns: repeat(auto-fit, minmax(200px, 5fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 5fr));
 }
 .gallery-list__link {
   box-shadow: var(--shadow-medie);
   transition: 0.5s transform;
+  height: 150px;
   &:hover {
     transform: scale(1.05);
   }
