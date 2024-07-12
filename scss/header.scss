@@ -107,11 +107,20 @@
   fill: #fff;
   transition: 0.5s;
 }
+.login-link {
+  cursor: pointer;
+}
 
 .login {
   line-height: 1;
   display: flex;
   gap: 0.5rem;
+  //transform: translateY(-200px);
+  transition: 0.5s transform;
+  padding-bottom: 5px;
+  &.active {
+    transform: none;
+  }
 }
 .login__link {
   cursor: pointer;

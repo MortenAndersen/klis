@@ -7,17 +7,7 @@ img {
   height: auto;
   display: block;
 }
-.login-link {
-  cursor: pointer;
-}
-.login {
-  transform: translateY(-200px);
-  transition: 0.5s transform;
-  padding-bottom: 5px;
-  &.active {
-    transform: none;
-  }
-}
+
 .fokus-btn {
   color: var(--farve4);
   background: var(--farve3);

@@ -4,10 +4,10 @@ function moreFunction() {
   element.classList.toggle("active");
 }
 
-function loginFunction() {
-  const element = document.getElementById("login");
-  element.classList.toggle("active");
-}
+// function loginFunction() {
+//   const element = document.getElementById("login");
+//   element.classList.toggle("active");
+// }
 function menuFunction() {
   const element = document.getElementById("menu-toggle"),
     ham = document.getElementById("hamburger");
