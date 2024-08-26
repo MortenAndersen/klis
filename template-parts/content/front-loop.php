@@ -7,7 +7,7 @@ echo '<div class="content grid front-grid">';
             the_title('<h1>', '</h1>');
             echo '<h2>En skole for livet</h2>';
             echo '</header>';
-            the_content();
+            klis_content();
         echo '</article>';
         echo '<aside>';
             get_template_part('template-parts/content/video', 'loop');

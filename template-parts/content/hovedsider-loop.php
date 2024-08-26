@@ -24,7 +24,7 @@ echo '<div class="content grid">';
           echo '</div>';
         echo '</header>';
         
-          the_content();
+          klis_content();
       echo '</article>';
     endwhile;
     echo '</div>';

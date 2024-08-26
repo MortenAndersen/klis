@@ -86,6 +86,9 @@ add_action('after_setup_theme', 'klis_localize_theme');
 // Theme functions
 //require get_parent_theme_file_path('/inc/header-info.php');
 
+// Klis functions
+require get_parent_theme_file_path('/inc/klis-functions.php');
+
 // Theme Widget
 require get_parent_theme_file_path('/inc/widgets.php');
 
@@ -93,6 +96,7 @@ require get_parent_theme_file_path('/inc/widgets.php');
 require get_parent_theme_file_path('/inc/bobler.php');
 
 // ACF
+require get_parent_theme_file_path('/inc/more-acf.php');
 require get_parent_theme_file_path('/inc/bobler-acf.php');
 require get_parent_theme_file_path('/inc/page-acf.php');
 require get_parent_theme_file_path('/inc/aside-acf.php');
@@ -104,3 +108,4 @@ function move_yoast_below_acf() {
 	return 'low';
 }
 add_filter( 'wpseo_metabox_prio', 'move_yoast_below_acf');
+

@@ -17,7 +17,7 @@ if ($tjek1 || $tjek2 || $tjek3){
                 echo '<div class="pre-title">' . get_field('pre_title') . '</div>';
             }
             the_title('<h1>', '</h1>');
-            the_content();
+            klis_content();
         echo '</article>';
        
         if ($tjek1 || $tjek2 || $tjek3){
