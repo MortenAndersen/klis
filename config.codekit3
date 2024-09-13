@@ -25,6 +25,30 @@
       "oAP" : "\/404.php",
       "oF" : 0
     },
+    "\/admin\/admin-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/admin\/admin-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/admin\/admin.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/admin\/admin-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/elements.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -170,6 +194,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/inc\/klis-functions.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/klis-functions.php",
+      "oF" : 0
+    },
+    "\/inc\/more-acf.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/more-acf.php",
+      "oF" : 0
+    },
     "\/inc\/page-acf.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -286,6 +326,19 @@
       "oA" : 0,
       "oAP" : "\/page.php",
       "oF" : 0
+    },
+    "\/screenshot.png" : {
+      "ft" : 32768,
+      "iS" : 27086,
+      "oA" : 0,
+      "oAP" : "\/screenshot.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/scss\/card.scss" : {
       "aP" : 0,
@@ -542,6 +595,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/user.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/user.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/wp-head.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -564,6 +632,19 @@
       "oA" : 0,
       "oAP" : "\/search.php",
       "oF" : 0
+    },
+    "\/skot.png" : {
+      "ft" : 32768,
+      "iS" : 2146,
+      "oA" : 0,
+      "oAP" : "\/skot.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/style.css" : {
       "aP" : 1,

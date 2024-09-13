@@ -76,6 +76,7 @@ endif;
 
 // ---------------------------------------------------
 
+
 // Sprogfiler
 function klis_localize_theme() {
 	load_theme_textdomain('klis-domain', get_template_directory() . '/languages');

@@ -1,0 +1,25 @@
+.role-editor #menu-posts,
+.role-editor #menu-comments,
+.role-editor #menu-tools,
+.role-editor #toplevel_page_wpseo_workouts,
+.role-editor #dashboard-widgets-wrap,
+.role-editor #menu-dashboard,
+.role-editor #wp-admin-bar-new-post,
+.role-editor #screen-meta-links,
+.role-editor #wp-admin-bar-comments,
+.role-editor #wp-admin-bar-wpseo-menu,
+.role-editor #wp-admin-bar-wp-logo,
+.role-editor #menu-users {
+  display: none;
+}
+
+.role-editor.index-php #wpbody-content h1:after {
+  content: " på Køge Lille Skole";
+}
+
+body.role-editor.index-php {
+  background: linear-gradient(#006445, #2c2e2e);
+}
+body.role-editor.index-php h1 {
+  color: #fff;
+}
