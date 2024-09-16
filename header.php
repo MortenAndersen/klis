@@ -47,8 +47,8 @@
         </div>
         <div class="l-right">
         <?php get_template_part('template-parts/content/search', 'form'); ?>
-          <a href="#" class="fokus-btn">Opskrivning</a>
-          <a href="#" class="fokus-btn">Nye forældre</a>
+          <a href="/opskrivning" class="fokus-btn">Opskrivning</a>
+          <a href="/nye-foraeldre" class="fokus-btn">Nye forældre</a>
         </div>
       </div>
 
