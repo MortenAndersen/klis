@@ -56,7 +56,7 @@ input {
   border-color: var(--border-color);
   border-radius: 1rem;
   position: relative;
-  margin-bottom: 2rem;
+  margin-block: 2rem;
   transition: 0.5s border-color;
   &.active {
     border-color: #fff;
