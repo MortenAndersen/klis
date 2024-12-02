@@ -24,9 +24,10 @@ add_action( 'acf/include_fields', function() {
 			),
 			'default_value' => '',
 			'maxlength' => '',
+			'allow_in_bindings' => 1,
 			'rows' => 5,
 			'placeholder' => '',
-			'new_lines' => '',
+			'new_lines' => 'br',
 		),
 	),
 	'location' => array(
@@ -49,3 +50,4 @@ add_action( 'acf/include_fields', function() {
 	'show_in_rest' => 0,
 ) );
 } );
+

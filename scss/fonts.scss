@@ -25,6 +25,7 @@ a {
 p {
   margin-bottom: var(--gap);
   font-weight: 300;
+  max-width: 70ch;
 }
 
 h1 {
@@ -42,6 +43,14 @@ h2 {
 .pre-title {
   font-size: clamp(1.2rem, 2vw, 1.5rem);
 }
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: var(--gap) 0 0.5rem 0;
+}
 
 strong,
 b {
@@ -54,7 +63,7 @@ i {
 ul,
 ol {
   padding: 0;
-  margin: 0 2rem;
+  margin: 0 0 var(--gap) var(--gap);
 }
 ul li {
   list-style-type: disc;

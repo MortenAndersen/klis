@@ -71,17 +71,23 @@ input {
     opacity: 1;
     height: auto;
   }
+  > * {
+    margin-top: 0;
+  }
+  p:last-of-type {
+    margin-bottom: 0;
+  }
 }
 .more__action {
   position: absolute;
   right: 1rem;
-  bottom: -15px;
+
   padding: 0.3rem 1rem;
   border: 1px solid var(--border-color);
   border-radius: 1rem;
   background: var(--farve2);
   line-height: 1;
-  height: 30px;
+
   cursor: pointer;
   transition: 0.5s background;
   &:hover {
