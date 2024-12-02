@@ -11,6 +11,8 @@ if( have_rows('filer') ):
         $image = get_sub_field('billede');
         // Do something, but make sure you escape the value if outputting directly...
         
+        $class = ' no-img';
+
         if( $file ){
 
             // Extract variables.
@@ -34,12 +36,21 @@ if( have_rows('filer') ):
             $imgThumb = $image['sizes'][ $size ];
             $imgWidth = $image['sizes'][ $size . '-width' ];
             $imgHeight = $image['sizes'][ $size . '-height' ];
+
+            $class = ' has-img';
         }
-        echo '<a href="' . $url . '" title="' . $title . '" class="file" target="_blank">';
-            echo '<img src="' . $imgThumb . '" width="' . $imgWidth . '" height="' . $imgHeight . '" alt="' . $imgAlt . '" title="' . $imgTitle . '">';
+        echo '<a href="' . $url . '" title="' . $title . '" class="file' . $class . '" target="_blank">';
+
+            if($image) {
+                echo '<img src="' . $imgThumb . '" width="' . $imgWidth . '" height="' . $imgHeight . '" alt="' . $imgAlt . '" title="' . $imgTitle . '">';
+            }
                 echo '<div class="file-body">';
                     echo '<div class="file-body__title">' . $title . '</div>';
-                    echo '<div class="file-body__decs">' . $caption . ' ' . $description . '</div>';
+
+                    if($caption OR $description) {
+                        echo '<div class="file-body__decs">' . $caption . ' ' . $description . '</div>';
+                    }
+
                 echo '</div>';
       
                  echo '<div class="extension">.' . $extension . '</div>';

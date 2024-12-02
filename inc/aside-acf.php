@@ -90,12 +90,12 @@ add_action( 'acf/include_fields', function() {
 				),
 				array(
 					'key' => 'field_66867bfcc5b97',
-					'label' => 'Billede',
+					'label' => 'Billede (ikon)',
 					'name' => 'billede',
 					'aria-label' => '',
 					'type' => 'image',
 					'instructions' => '',
-					'required' => 1,
+					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
 						'width' => '',
