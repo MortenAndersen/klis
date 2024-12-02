@@ -37,19 +37,21 @@ h1 {
   max-width: 50ch;
   font-weight: 300;
 }
-h2 {
-  font-size: clamp(1.2rem, 2vw, 1.4rem);
-}
-.pre-title {
-  font-size: clamp(1.2rem, 2vw, 1.5rem);
-}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-size: 1rem;
   font-weight: 500;
   margin: var(--gap) 0 0.5rem 0;
+}
+h2 {
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
+}
+.pre-title {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
 }
 
 strong,
