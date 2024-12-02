@@ -43,13 +43,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 1rem;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
   font-weight: 500;
   margin: var(--gap) 0 0.5rem 0;
 }
-h2 {
-  font-size: clamp(1.2rem, 2vw, 1.4rem);
-}
+
 .pre-title {
   font-size: clamp(1.2rem, 2vw, 1.5rem);
 }
@@ -65,13 +63,15 @@ i {
 ul,
 ol {
   padding: 0;
-  margin: 0 0 var(--gap) var(--gap);
+  margin: 0 0 var(--gap) 1rem;
 }
 ul li {
-  list-style-type: disc;
+  list-style-type: "✓";
+  padding-left: 1ch;
 }
 ol li {
   list-style-type: decimal;
+  padding-left: 1ch;
 }
 .front-header {
   text-align: center;
