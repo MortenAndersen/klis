@@ -62,18 +62,21 @@ em,
 i {
   font-style: italic;
 }
-ul,
-ol {
-  padding: 0;
-  margin: 0 0 var(--gap) 1rem;
-}
-ul li {
-  list-style-type: "✓";
-  padding-left: 1ch;
-}
-ol li {
-  list-style-type: decimal;
-  padding-left: 1ch;
+.content {
+  ul,
+  ol {
+    padding: 0;
+    margin: 0 0 var(--gap) 1rem;
+    li {
+      padding: 0 0 1rem 1ch;
+    }
+  }
+  ul li {
+    list-style-type: "✓";
+  }
+  ol li {
+    list-style-type: decimal;
+  }
 }
 .front-header {
   text-align: center;
