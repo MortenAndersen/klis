@@ -58,9 +58,9 @@ if (!function_exists('web_setup')):
 		// Menu
 		register_nav_menus(array(
 			'main-menu' => __('Om skolen', 'klis-domain'),
-			'main-menu2' => __('Forældre på KLS', 'klis-domain'),
-			'main-menu3' => __('Traditioner', 'klis-domain'),
-			'main-menu4' => __('Elev på KLS', 'klis-domain'),
+			'main-menu2' => __('Traditioner', 'klis-domain'),
+			'main-menu3' => __('Elev på KLS', 'klis-domain'),
+			'main-menu4' => __('Forældre på KLS', 'klis-domain'),
 			'main-menu5' => __('Praktisk info', 'klis-domain'),
 		));
 		// Excerpt in pages
