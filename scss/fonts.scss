@@ -25,7 +25,8 @@ a {
 p {
   margin-bottom: var(--gap);
   font-weight: 300;
-  max-width: 70ch;
+  max-width: 75ch;
+  text-wrap: pretty;
 }
 
 h1 {
