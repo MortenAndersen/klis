@@ -194,6 +194,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/inc\/info.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/info.php",
+      "oF" : 0
+    },
     "\/inc\/klis-functions.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -216,6 +224,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/inc\/page-acf.php",
+      "oF" : 0
+    },
+    "\/inc\/shortcode-info.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/shortcode-info.php",
       "oF" : 0
     },
     "\/inc\/widgets.php" : {

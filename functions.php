@@ -93,8 +93,10 @@ require get_parent_theme_file_path('/inc/klis-functions.php');
 // Theme Widget
 require get_parent_theme_file_path('/inc/widgets.php');
 
-// Bobler
+// Posttype
 require get_parent_theme_file_path('/inc/bobler.php');
+require get_parent_theme_file_path('/inc/info.php');
+require get_parent_theme_file_path('/inc/shortcode-info.php');
 
 // ACF
 require get_parent_theme_file_path('/inc/more-acf.php');

@@ -5,6 +5,7 @@ echo '<div class="content grid front-grid">';
         echo '<article>';
             echo '<header class="front-header">';
             the_title('<h1>', '</h1>');
+            echo '<h2>En skole for livet</h2>';
             echo '</header>';
             klis_content();
         echo '</article>';
