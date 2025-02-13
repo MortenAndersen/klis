@@ -8,22 +8,17 @@ nav {
   }
 }
 .menu-con {
-  margin-block: 2rem;
-  background: var(--farve3);
-  //max-height: 0;
+  margin-block: 1rem;
+  background: #757575;
   overflow: hidden;
-  //display: none;
+
   height: 0;
   visibility: hidden;
-  // opacity: 0;
-  //transition: 1s ease-out all;
+
   &.active {
-    //max-height: 100%;
-    //display: block;
     visibility: visible;
     height: auto;
-    box-shadow: 0 0 1px 1px #fff;
-    //opacity: 1;
+    box-shadow: 0 0 1px 1px #0a4418;
   }
 }
 
@@ -66,7 +61,11 @@ nav {
       color: rgba(255, 255, 255, 0.6);
     }
     &[aria-current="page"] {
-      color: cyan;
+      font-weight: 600;
+      &::before {
+        content: "\2192";
+        color: yellow;
+      }
     }
   }
   ul {
@@ -78,6 +77,9 @@ nav {
   }
 }
 @media (width > 550px) {
+  .menu-con {
+    margin-block: 0;
+  }
   .main-menu {
     grid-template-columns: repeat(auto-fit, minmax(215px, 5fr));
     a {

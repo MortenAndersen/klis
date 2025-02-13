@@ -11,6 +11,6 @@ echo '<div class="ref content l-wrap"><a href="https://www.hjemmesider.dk" rel="
 wp_footer();
 do_action('clean_before_body_end');
 ?>
-
+</div>
 </body>
 </html>

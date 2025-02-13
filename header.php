@@ -13,6 +13,7 @@
  $custom_logo_id = get_theme_mod('custom_logo');
  $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
  ?>
+ <div class="page-wrap">
 <header class="l-wrap header">
       <div class="l-header-first">
         <div class="l-left">
@@ -47,7 +48,6 @@
         </div>
         <div class="l-right">
         <?php get_template_part('template-parts/content/search', 'form'); ?>
-          <a href="/opskrivning" class="fokus-btn">Opskrivning</a>
           <a href="/nye-foraeldre" class="fokus-btn">Nye forældre</a>
         </div>
       </div>

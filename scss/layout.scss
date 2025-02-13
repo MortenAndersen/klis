@@ -1,14 +1,21 @@
 body {
-  background: var(--body-bg);
-  background-attachment: fixed;
+  background: #fff;
   color: var(--farve4);
   font-family: var(--font-family);
   font-size: var(--body-font-size);
   line-height: var(--body-line-height);
 }
-.l-wrap {
+.page-wrap {
+  background: var(--body-bg);
+  background-attachment: fixed;
   margin: 0 auto;
   max-width: var(--page-width);
+  padding: var(--gap);
+  box-shadow: var(--shadow-medie);
+}
+.l-wrap {
+  // margin: 0 auto;
+  // max-width: var(--page-width);
   padding-inline: var(--gap);
 }
 .content {
