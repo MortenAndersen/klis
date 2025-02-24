@@ -31,6 +31,11 @@ echo do_shortcode( '[type type=GDPR]' );
 echo '</details>';
 
 echo '<details>';
+echo '<summary>Takster</summary>';
+echo do_shortcode( '[type type=takster]' );
+echo '</details>';
+
+echo '<details>';
 echo '<summary>Tilsynserklæring</summary>';
 echo do_shortcode( '[type type=tilsyn]' );
 echo '</details>';
