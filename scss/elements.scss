@@ -149,7 +149,6 @@ details summary::marker {
   margin-right: 1ch;
 }
 details[open] {
-  padding-bottom: var(--gap);
   summary::marker {
     color: #fff;
     content: "-";
