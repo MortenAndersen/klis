@@ -21,6 +21,11 @@ if ($tjek1 || $tjek2 || $tjek3){
 
 // Filer
 echo '<details>';
+echo '<summary>Evaluering</summary>';
+echo do_shortcode( '[type type=evaluering]' );
+echo '</details>';
+
+echo '<details>';
 echo '<summary>Mobning</summary>';
 echo do_shortcode( '[type type=mobning]' );
 echo '</details>';
