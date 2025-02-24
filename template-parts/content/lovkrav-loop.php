@@ -26,6 +26,11 @@ echo do_shortcode( '[type type=mobning]' );
 echo '</details>';
 
 echo '<details>';
+echo '<summary>Privatlivspolitik - GDPR</summary>';
+echo do_shortcode( '[type type=GDPR]' );
+echo '</details>';
+
+echo '<details>';
 echo '<summary>Tilsynserklæring</summary>';
 echo do_shortcode( '[type type=tilsyn]' );
 echo '</details>';
