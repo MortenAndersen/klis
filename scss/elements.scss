@@ -134,3 +134,24 @@ aside {
 .wp-block-file {
   padding-bottom: 1rem;
 }
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  margin: 0 0 1rem 1rem;
+  padding-left: .3rem;
+
+
+}
+details summary::marker {
+  content: "+";
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: 1ch;
+}
+details[open] {
+  padding-bottom: var(--gap);
+  summary::marker {
+    color: #fff;
+    content: "-";
+  }
+}

@@ -20,11 +20,15 @@ if ($tjek1 || $tjek2 || $tjek3){
             klis_content();
 
 // Filer
-echo '<h3>Mobning</h3>';
+echo '<details>';
+echo '<summary>Mobning</summary>';
 echo do_shortcode( '[type type=mobning]' );
+echo '</details>';
 
-echo '<h3>Tilsynserklæring</h3>';
+echo '<details>';
+echo '<summary>Tilsynserklæring</summary>';
 echo do_shortcode( '[type type=tilsyn]' );
+echo '</details>';
 
 
         echo '</article>';
