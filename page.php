@@ -1,7 +1,4 @@
 <?php
-/*
-Template Name: Lovkrav
-*/
 get_header();
 
 get_template_part('template-parts/content/normal', 'loop');
