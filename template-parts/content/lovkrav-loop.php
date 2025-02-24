@@ -30,6 +30,11 @@ echo '<summary>Tilsynserklæring</summary>';
 echo do_shortcode( '[type type=tilsyn]' );
 echo '</details>';
 
+echo '<details>';
+echo '<summary>Trafikpolitik</summary>';
+echo do_shortcode( '[type type=trafikpolitik]' );
+echo '</details>';
+
 
         echo '</article>';
        
