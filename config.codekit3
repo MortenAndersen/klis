@@ -7,7 +7,7 @@
       "uuidString" : "49CBE8AD-0302-4FBA-98A7-7C360349DAD2"
     }
   ],
-  "creatorBuild" : "34576",
+  "creatorBuild" : "34680",
   "files" : {
     "\/.gitattributes" : {
       "cB" : 0,
@@ -360,7 +360,6 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -368,14 +367,12 @@
       "oAP" : "\/card.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/elements.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -383,14 +380,12 @@
       "oAP" : "\/elements.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/filer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -398,14 +393,12 @@
       "oAP" : "\/filer.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/fonts.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -413,14 +406,12 @@
       "oAP" : "\/fonts.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -428,14 +419,12 @@
       "oAP" : "\/footer.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/gallery.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -443,14 +432,12 @@
       "oAP" : "\/gallery.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/grid.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -458,14 +445,12 @@
       "oAP" : "\/grid.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -473,14 +458,12 @@
       "oAP" : "\/header.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/hoved-side.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -488,14 +471,12 @@
       "oAP" : "\/hoved-side.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/layout.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -503,14 +484,12 @@
       "oAP" : "\/layout.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/lightbox.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -518,14 +497,12 @@
       "oAP" : "\/lightbox.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/login.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -533,14 +510,12 @@
       "oAP" : "\/login.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/menu.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -548,14 +523,12 @@
       "oAP" : "\/menu.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/mpa-reset.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -563,14 +536,12 @@
       "oAP" : "\/mpa-reset.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/reset.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -578,14 +549,12 @@
       "oAP" : "\/reset.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/root.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -593,14 +562,12 @@
       "oAP" : "\/root.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -608,14 +575,12 @@
       "oAP" : "\/style.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/user.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -623,14 +588,12 @@
       "oAP" : "\/user.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/scss\/wp-head.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -638,8 +601,7 @@
       "oAP" : "\/wp-head.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/search.php" : {
       "cB" : 0,
@@ -1306,10 +1268,6 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -1361,10 +1319,6 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
-      },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -1507,7 +1461,8 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
       "no-extra-label" : {
         "active" : 0
@@ -1592,7 +1547,8 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowEscape': false}"
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -1960,7 +1916,8 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
@@ -2251,9 +2208,7 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 1,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 3,
       "purgeCSSStyle" : 0,
@@ -2370,6 +2325,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -2390,6 +2346,7 @@
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
