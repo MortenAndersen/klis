@@ -26,6 +26,11 @@ echo do_shortcode( '[type type=evaluering]' );
 echo '</div>';
 
 echo '<div class="down-con">';
+echo '<h3>Ferieplan</h3>';
+echo do_shortcode( '[type type=ferie]' );
+echo '</div>';
+
+echo '<div class="down-con">';
 echo '<h3>Mobning</h3>';
 echo do_shortcode( '[type type=mobning]' );
 echo '</div>';
