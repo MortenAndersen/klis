@@ -61,6 +61,11 @@ echo do_shortcode( '[type type=udvikling]' );
 echo '</div>';
 
 echo '<div class="down-con">';
+echo '<h3>Undervisning</h3>';
+echo do_shortcode( '[type type=undervisning]' );
+echo '</div>';
+
+echo '<div class="down-con">';
 echo '<h3>Undervisningsmiljøvurdering</h3>';
 echo do_shortcode( '[type type=umv]' );
 echo '</div>';
