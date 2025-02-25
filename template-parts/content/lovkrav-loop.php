@@ -30,10 +30,10 @@ echo '<h3>Ferieplan</h3>';
 echo do_shortcode( '[type type=ferie]' );
 echo '</div>';
 
-echo '<div class="down-con">';
-echo '<h3>Mobning</h3>';
-echo do_shortcode( '[type type=mobning]' );
-echo '</div>';
+// echo '<div class="down-con">';
+// echo '<h3>Mobning</h3>';
+// echo do_shortcode( '[type type=mobning]' );
+// echo '</div>';
 
 echo '<div class="down-con">';
 echo '<h3>Privatlivspolitik - GDPR</h3>';
@@ -51,8 +51,8 @@ echo do_shortcode( '[type type=tilsyn]' );
 echo '</div>';
 
 echo '<div class="down-con">';
-echo '<h3>Trafikpolitik</h3>';
-echo do_shortcode( '[type type=trafikpolitik]' );
+echo '<h3>Politik</h3>';
+echo do_shortcode( '[type type=politik]' );
 echo '</div>';
 
 echo '<div class="down-con">';
