@@ -55,6 +55,11 @@ echo '<h3>Trafikpolitik</h3>';
 echo do_shortcode( '[type type=trafikpolitik]' );
 echo '</div>';
 
+echo '<div class="down-con">';
+echo '<h3>Udviklingsplan</h3>';
+echo do_shortcode( '[type type=udvikling]' );
+echo '</div>';
+
 
         echo '</article>';
        
