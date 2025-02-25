@@ -20,35 +20,35 @@ if ($tjek1 || $tjek2 || $tjek3){
             klis_content();
 
 // Filer
-echo '<details>';
-echo '<summary>Evaluering</summary>';
+echo '<div class="down-con">';
+echo '<h3>Evaluering</h3>';
 echo do_shortcode( '[type type=evaluering]' );
-echo '</details>';
+echo '</div>';
 
-echo '<details>';
-echo '<summary>Mobning</summary>';
+echo '<div class="down-con">';
+echo '<h3>Mobning</h3>';
 echo do_shortcode( '[type type=mobning]' );
-echo '</details>';
+echo '</div>';
 
-echo '<details>';
-echo '<summary>Privatlivspolitik - GDPR</summary>';
+echo '<div class="down-con">';
+echo '<h3>Privatlivspolitik - GDPR</h3>';
 echo do_shortcode( '[type type=GDPR]' );
-echo '</details>';
+echo '</div>';
 
-echo '<details>';
-echo '<summary>Takster</summary>';
+echo '<div class="down-con">';
+echo '<h3>Takster</h3>';
 echo do_shortcode( '[type type=takster]' );
-echo '</details>';
+echo '</div>';
 
-echo '<details>';
-echo '<summary>Tilsynserklæring</summary>';
+echo '<div class="down-con">';
+echo '<h3>Tilsynserklæring</h3>';
 echo do_shortcode( '[type type=tilsyn]' );
-echo '</details>';
+echo '</div>';
 
-echo '<details>';
-echo '<summary>Trafikpolitik</summary>';
+echo '<div class="down-con">';
+echo '<h3>Trafikpolitik</h3>';
 echo do_shortcode( '[type type=trafikpolitik]' );
-echo '</details>';
+echo '</div>';
 
 
         echo '</article>';
