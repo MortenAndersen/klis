@@ -226,12 +226,44 @@
       "oAP" : "\/inc\/page-acf.php",
       "oF" : 0
     },
+    "\/inc\/personer-acf.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/personer-acf.php",
+      "oF" : 0
+    },
+    "\/inc\/personer-shortcode.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/personer-shortcode.php",
+      "oF" : 0
+    },
+    "\/inc\/personer.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/personer.php",
+      "oF" : 0
+    },
     "\/inc\/shortcode-info.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/inc\/shortcode-info.php",
+      "oF" : 0
+    },
+    "\/inc\/type.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/type.php",
       "oF" : 0
     },
     "\/inc\/widgets.php" : {
@@ -542,6 +574,19 @@
       "ma" : 1,
       "oA" : 1,
       "oAP" : "\/mpa-reset.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0
+    },
+    "\/scss\/personer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/personer.css",
       "oF" : 0,
       "oS" : 3,
       "pg" : 0

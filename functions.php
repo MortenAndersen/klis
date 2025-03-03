@@ -97,6 +97,9 @@ require get_parent_theme_file_path('/inc/widgets.php');
 require get_parent_theme_file_path('/inc/bobler.php');
 require get_parent_theme_file_path('/inc/info.php');
 require get_parent_theme_file_path('/inc/shortcode-info.php');
+require get_parent_theme_file_path('/inc/personer.php');
+require get_parent_theme_file_path('/inc/personer-shortcode.php');
+require get_parent_theme_file_path('/inc/type.php');
 
 // ACF
 require get_parent_theme_file_path('/inc/more-acf.php');
@@ -105,6 +108,7 @@ require get_parent_theme_file_path('/inc/page-acf.php');
 require get_parent_theme_file_path('/inc/aside-acf.php');
 require get_parent_theme_file_path('/inc/frontpage-acf.php');
 require get_parent_theme_file_path('/inc/hovedside-acf.php');
+require get_parent_theme_file_path('/inc/personer-acf.php');
 
 // Yoast ned så ACF kommer op :-)
 function move_yoast_below_acf() {
