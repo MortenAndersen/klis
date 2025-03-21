@@ -104,6 +104,7 @@ require get_parent_theme_file_path('/inc/type.php');
 // ACF
 require get_parent_theme_file_path('/inc/more-acf.php');
 require get_parent_theme_file_path('/inc/bobler-acf.php');
+require get_parent_theme_file_path('/inc/css-acf.php');
 require get_parent_theme_file_path('/inc/page-acf.php');
 require get_parent_theme_file_path('/inc/aside-acf.php');
 require get_parent_theme_file_path('/inc/frontpage-acf.php');

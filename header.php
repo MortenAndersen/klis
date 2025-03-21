@@ -6,6 +6,12 @@
 <?php wp_head();?>
 <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet" />
 
+<?php if (function_exists('acf_add_local_field_group') && get_field('css')) {
+	$css = get_field('css');
+	$css = trim(preg_replace('/\s+/', ' ', $css));
+	echo '<style>' . $css . '</style>';
+}?>
+
 </head>
 
 <body <?php body_class();?> id="top">
