@@ -21,6 +21,11 @@ if ($tjek1 || $tjek2 || $tjek3){
 
 // Filer
 echo '<div class="down-con">';
+echo '<h3>Vedtægter</h3>';
+echo do_shortcode( '[type type=vedtaegter]' );
+echo '</div>';
+
+echo '<div class="down-con">';
 echo '<h3>Evalueringer</h3>';
 echo do_shortcode( '[type type=evaluering]' );
 echo '</div>';
