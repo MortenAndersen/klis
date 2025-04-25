@@ -2,11 +2,13 @@ nav {
   ul {
     margin: 0;
     padding: 0;
+
     li {
       list-style: none;
     }
   }
 }
+
 .menu-con {
   margin-block: 1rem;
   background: #757575;
@@ -27,6 +29,7 @@ nav {
   padding: var(--gap);
   transform: translateY(-100%);
   transition: 1s all;
+
   .active & {
     transform: translateY(0);
     transition: 1s all;
@@ -40,7 +43,7 @@ nav {
   display: grid;
   gap: var(--gap);
 
-  .first-lvl > li {
+  .first-lvl>li {
     &:first-of-type {
       a {
         text-transform: uppercase;
@@ -51,22 +54,29 @@ nav {
       }
     }
   }
+
   a {
     text-decoration: none;
     display: block;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     transition: 0.5s all;
+
     &:hover {
       color: rgba(255, 255, 255, 0.6);
     }
+
     &[aria-current="page"] {
       font-weight: 600;
+
       &::before {
         content: "\2192";
-        color: yellow;
+        font-weight: normal;
+        padding-right: 2px;
+        animation: blink 1.5s infinite;
       }
     }
   }
+
   ul {
     ul {
       a {
@@ -75,12 +85,29 @@ nav {
     }
   }
 }
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 @media (width > 550px) {
   .menu-con {
     margin-block: 0;
   }
+
   .main-menu {
     grid-template-columns: repeat(auto-fit, minmax(215px, 5fr));
+
     a {
       font-size: 0.9rem;
       line-height: 1.1;
@@ -88,6 +115,7 @@ nav {
     }
   }
 }
+
 .menu__quick {
   background: rgba(255, 255, 255, 0.05);
   padding: var(--gap);
@@ -95,30 +123,36 @@ nav {
   margin-bottom: var(--gap);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
+
   .login {
     transform: none;
   }
+
   a {
     text-decoration: none;
   }
 }
+
 @media (width > 800px) {
   .menu__quick {
     display: none;
   }
 }
+
 .menu__search {
   display: flex;
   flex-flow: column;
   gap: var(--gap);
   margin-top: var(--gap);
 }
+
 .menu__info {
   box-shadow: 0 0 2px #fff;
   border-radius: 8px;
   padding: var(--gap);
   margin-top: var(--gap);
 }
+
 @media (width > 600px) {
   .menu__search {
     flex-flow: row;
