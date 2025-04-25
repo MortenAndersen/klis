@@ -70,6 +70,11 @@ echo '<h3>Undervisningsmiljøvurdering</h3>';
 echo do_shortcode( '[type type=umv]' );
 echo '</div>';
 
+echo '<div class="down-con" style="border:none;">';
+echo '<h3>Information</h3>';
+echo do_shortcode( '[type type=info]' );
+echo '</div>';
+
 
         echo '</article>';
        
