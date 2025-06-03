@@ -5,15 +5,15 @@ add_action( 'acf/include_fields', function() {
 	}
 
 	acf_add_local_field_group( array(
-	'key' => 'group_667c161b9e12f',
-	'title' => 'Klis Boble',
+	'key' => 'group_683ef48a38518',
+	'title' => 'Klis Spalte',
 	'fields' => array(
 		array(
-			'key' => 'field_667c161b14e18',
-			'label' => 'link',
-			'name' => 'link',
+			'key' => 'field_683ef48acbe9d',
+			'label' => 'Spalte 2',
+			'name' => 'spalte_2',
 			'aria-label' => '',
-			'type' => 'link',
+			'type' => 'wysiwyg',
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
@@ -22,15 +22,20 @@ add_action( 'acf/include_fields', function() {
 				'class' => '',
 				'id' => '',
 			),
-			'return_format' => 'array',
+			'default_value' => '',
+			'allow_in_bindings' => 0,
+			'tabs' => 'all',
+			'toolbar' => 'full',
+			'media_upload' => 1,
+			'delay' => 0,
 		),
 	),
 	'location' => array(
 		array(
 			array(
-				'param' => 'post_type',
+				'param' => 'page_template',
 				'operator' => '==',
-				'value' => 'bobler',
+				'value' => 'page-spalter.php',
 			),
 		),
 	),

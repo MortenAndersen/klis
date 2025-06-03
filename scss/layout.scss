@@ -5,6 +5,7 @@ body {
   font-size: var(--body-font-size);
   line-height: var(--body-line-height);
 }
+
 .page-wrap {
   background: var(--body-bg);
   background-attachment: fixed;
@@ -13,14 +14,17 @@ body {
   padding: var(--gap);
   box-shadow: var(--shadow-medie);
 }
+
 .l-wrap {
   // margin: 0 auto;
   // max-width: var(--page-width);
   padding-inline: var(--gap);
 }
+
 .content {
   margin-block: clamp(1rem, 4vw, 2rem);
 }
+
 .site {
   display: grid;
   grid-template-columns: 90% 100%;
@@ -29,6 +33,7 @@ body {
   max-width: var(--page-width);
   min-height: 100vh;
 }
+
 .main-content {
   min-height: 100vh;
   padding: var(--gap);
@@ -49,6 +54,7 @@ aside {
     grid-template-columns: 3fr 2fr;
     gap: var(--gap) !important;
   }
+
   aside {
     border-left: var(--border);
     border-top: none;
@@ -59,5 +65,12 @@ aside {
   .front-grid {
     grid-template-columns: 2fr 3fr;
     gap: var(--gap) !important;
+  }
+
+
+  .spalter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
   }
 }

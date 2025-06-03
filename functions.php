@@ -110,6 +110,7 @@ require get_parent_theme_file_path('/inc/aside-acf.php');
 require get_parent_theme_file_path('/inc/frontpage-acf.php');
 require get_parent_theme_file_path('/inc/hovedside-acf.php');
 require get_parent_theme_file_path('/inc/personer-acf.php');
+require get_parent_theme_file_path('/inc/spalter-acf.php');
 
 // Yoast ned så ACF kommer op :-)
 function move_yoast_below_acf() {

@@ -266,6 +266,14 @@
       "oAP" : "\/inc\/shortcode-info.php",
       "oF" : 0
     },
+    "\/inc\/spalter-acf.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/spalter-acf.php",
+      "oF" : 0
+    },
     "\/inc\/type.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -381,6 +389,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/page-lovkrav.php",
+      "oF" : 0
+    },
+    "\/page-spalter.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-spalter.php",
       "oF" : 0
     },
     "\/page.php" : {
@@ -791,6 +807,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/template-parts\/content\/search-form.php",
+      "oF" : 0
+    },
+    "\/template-parts\/content\/spalter-loop.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/content\/spalter-loop.php",
       "oF" : 0
     },
     "\/template-parts\/content\/video-loop.php" : {
