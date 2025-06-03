@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
 }
+
 img {
   max-width: 100%;
   height: auto;
@@ -21,6 +22,7 @@ img {
   text-transform: uppercase;
   font-size: 0.8rem;
   transition: 0.5s border-color;
+
   &:hover {
     border-color: #fff;
   }
@@ -41,43 +43,52 @@ input {
   padding-inline: 1rem;
   font-size: 0.8rem;
   transition: 0.5s border-color;
+
   &:focus {
     border-color: #fff;
   }
 }
+
 .search-list {
   a {
     font-weight: 600;
   }
 }
+
 .more {
   padding: 1rem;
   border: 1px solid;
   border-color: var(--border-color);
   border-radius: 1rem;
   position: relative;
-  margin-block: 2rem;
+  margin-bottom: 2rem;
   transition: 0.5s border-color;
+
   &.active {
     border-color: #fff;
   }
 }
+
 .more__body {
   opacity: 0.3;
   height: 20px;
   overflow: hidden;
   transition: 1s opacity;
+
   .active & {
     opacity: 1;
     height: auto;
   }
-  > * {
+
+  >* {
     margin-top: 0;
   }
+
   p:last-of-type {
     margin-bottom: 0;
   }
 }
+
 .more__action {
   position: absolute;
   right: 1rem;
@@ -90,12 +101,15 @@ input {
 
   cursor: pointer;
   transition: 0.5s background;
+
   &:hover {
     background: var(--farve1);
   }
+
   &::before {
     content: "læs mere";
   }
+
   .active & {
     &::before {
       content: "X ";
@@ -105,6 +119,7 @@ input {
 
 .video {
   margin-bottom: 2rem;
+
   iframe {
     width: 100%;
     height: auto;
@@ -114,31 +129,36 @@ input {
     margin: 0;
   }
 }
+
 aside {
   .video {
-    iframe {
-    }
+    iframe {}
   }
 }
+
 .ref {
   padding-bottom: 2rem;
   font-size: 0.7rem;
   text-align: right;
+
   a {
     text-decoration: none;
   }
 }
+
 .h {
   display: none !important;
 }
+
 .wp-block-file {
   padding-bottom: 1rem;
 }
 
 .down-con {
   border-bottom: var(--border);
-.filer {
-  display: block;
-  margin-bottom: 0;
-}
+
+  .filer {
+    display: block;
+    margin-bottom: 0;
+  }
 }

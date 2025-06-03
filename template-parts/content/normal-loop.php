@@ -1,4 +1,11 @@
 <?php
+echo '<div class="title-box l-wrap">';
+if (get_field('pre_title')){
+    echo '<div class="pre-title">' . get_field('pre_title') . '</div>';
+}
+the_title('<h1>', '</h1>');
+echo '</div>';
+
  $tjek1 = get_field('video');
  $tjek2 = get_field('aside');
  $tjek3 = have_rows('filer');
@@ -13,10 +20,7 @@ if ($tjek1 || $tjek2 || $tjek3){
    } 
     while (have_posts()): the_post();
         echo '<article>';
-            if (get_field('pre_title')){
-                echo '<div class="pre-title">' . get_field('pre_title') . '</div>';
-            }
-            the_title('<h1>', '</h1>');
+           
             klis_content();
         echo '</article>';
        
