@@ -5,16 +5,16 @@ add_action( 'acf/include_fields', function() {
 	}
 
 	acf_add_local_field_group( array(
-	'key' => 'group_667c161b9e12f',
-	'title' => 'Klis Boble',
+	'key' => 'group_66cc82c937ace',
+	'title' => 'Klis More',
 	'fields' => array(
 		array(
-			'key' => 'field_667c161b14e18',
-			'label' => 'link',
-			'name' => 'link',
+			'key' => 'field_66cc82c9c0ba0',
+			'label' => 'Teaser',
+			'name' => 'teaser',
 			'aria-label' => '',
-			'type' => 'link',
-			'instructions' => '',
+			'type' => 'textarea',
+			'instructions' => 'Benyttes dette felt vil ovenstående indhold (body) printes i en "Læs mere" visning!',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -22,15 +22,20 @@ add_action( 'acf/include_fields', function() {
 				'class' => '',
 				'id' => '',
 			),
-			'return_format' => 'array',
+			'default_value' => '',
+			'maxlength' => '',
+			'allow_in_bindings' => 1,
+			'rows' => 5,
+			'placeholder' => '',
+			'new_lines' => 'br',
 		),
 	),
 	'location' => array(
 		array(
 			array(
-				'param' => 'post_type',
+				'param' => 'page_template',
 				'operator' => '==',
-				'value' => 'bobler',
+				'value' => 'default',
 			),
 		),
 	),
