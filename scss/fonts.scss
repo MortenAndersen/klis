@@ -86,6 +86,15 @@ main {
 
     li {
       padding: 0 0 0.5rem 1ch;
+
+      ul,
+      ol {
+        margin: .5lh 0 0 15px;
+
+        li {
+          list-style-type: square;
+        }
+      }
     }
   }
 
