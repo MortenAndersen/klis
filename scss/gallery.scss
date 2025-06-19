@@ -4,7 +4,13 @@
   display: grid;
   flex-flow: wrap;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 5fr));
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (width > 600px) {
+  .gallery-list {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 5fr));
+  }
 }
 
 .gallery-list__link {
