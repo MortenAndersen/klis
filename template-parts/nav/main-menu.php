@@ -84,6 +84,14 @@ endif;
           <?php wp_nav_menu($main_nav5); ?>
           </div>
         </nav>
-        <div class="menu__info">Quick info her omkring kontakt etc.</div>
+        
+          <?php
+            if (is_active_sidebar('kontakt')) {
+              echo '<div class="menu__info">';
+                  dynamic_sidebar('kontakt');
+              echo '</div>';
+            }
+          ?>
+        
       </div>
     </div>

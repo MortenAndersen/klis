@@ -157,4 +157,10 @@ nav {
   .menu__search {
     flex-flow: row;
   }
+
+  .menu__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 }

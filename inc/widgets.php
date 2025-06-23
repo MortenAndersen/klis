@@ -19,6 +19,18 @@ function clean_widgets_init() {
 		)
 	);
 
+		// Quick kontakt
+		register_sidebar(
+			array(
+				'name' => __('kontakt', 'klis-domain'),
+				'id' => 'kontakt',
+				'description' => __('Kontakt i menu', 'klis-domain'),
+				'before_widget' => '<div id="%1$s" class="widget widget-kontakt %2$s">',
+				'after_widget' => '</div>',
+				'before_title' => '<p class="widget-title-kontakt">',
+				'after_title' => '</p>',
+			)
+		);
 }
 
 add_action('widgets_init', 'clean_widgets_init');
