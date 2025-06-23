@@ -151,6 +151,10 @@ nav {
   border-radius: 8px;
   padding: var(--gap);
   margin-top: var(--gap);
+
+  p {
+    margin: 0;
+  }
 }
 
 @media (width > 600px) {
