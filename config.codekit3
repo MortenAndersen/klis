@@ -383,6 +383,14 @@
       "oAP" : "\/page-hovedsider.php",
       "oF" : 0
     },
+    "\/page-kontakt.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-kontakt.php",
+      "oF" : 0
+    },
     "\/page-lovkrav.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -775,6 +783,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/template-parts\/content\/hovedsider-loop.php",
+      "oF" : 0
+    },
+    "\/template-parts\/content\/kontakt-loop.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/template-parts\/content\/kontakt-loop.php",
       "oF" : 0
     },
     "\/template-parts\/content\/lovkrav-loop.php" : {

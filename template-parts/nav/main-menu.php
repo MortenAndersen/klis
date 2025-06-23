@@ -55,16 +55,15 @@ endif;
                   fill-rule="nonzero"
                   transform="matrix(.0585949 0 0 .0585949 -5.00091 -5.03636)" /></svg
             ></a>
-            <a href="#" class="intra">E<span>I</span></a>
-            <a href="#" class="intra">F<span>I</span></a>
-            <a href="#" class="intra">P<span>I</span></a>
+            <a href="https://klis.m.skoleintra.dk/Account/IdpLogin?role=Student" class="intra" target="_blank">E<span>I</span></a>
+            <a href="https://klis.m.skoleintra.dk/Account/IdpLogin?role=Parent" class="intra" target="_blank">F<span>I</span></a>
+            <a href="https://klis.m.skoleintra.dk/Account/IdpLogin?role=Teacher" class="intra" target="_blank">P<span>I</span></a>
           </div>
           <div class="menu__search">
 
 					<?php get_template_part('template-parts/content/search', 'form'); ?>
 
-            <a href="#" class="fokus-btn">Opskrivning</a>
-            <a href="#" class="fokus-btn">Nye forældre</a>
+            <a href="https://www.ventelisten.net/259013" class="fokus-btn" target="_blank">Opskrivning</a>
           </div>
         </div>
         <nav class="main-menu">
