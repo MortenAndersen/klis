@@ -152,6 +152,8 @@ nav {
   padding: var(--gap);
   margin-top: var(--gap);
   background: #000;
+  display: grid;
+  gap: 1rem;
 
   p {
     margin: 0;
@@ -164,8 +166,8 @@ nav {
   }
 
   .menu__info {
-    display: grid;
+
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+
   }
 }
