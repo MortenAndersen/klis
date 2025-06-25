@@ -113,7 +113,7 @@ add_action( 'acf/include_fields', function() {
 					'aria-label' => '',
 					'type' => 'image',
 					'instructions' => '',
-					'required' => 1,
+					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
 						'width' => '',
@@ -129,6 +129,7 @@ add_action( 'acf/include_fields', function() {
 					'max_height' => '',
 					'max_size' => '',
 					'mime_types' => '',
+					'allow_in_bindings' => 1,
 					'preview_size' => 'medium',
 					'parent_repeater' => 'field_66867b9cda4e6',
 				),
