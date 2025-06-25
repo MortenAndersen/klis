@@ -38,6 +38,13 @@ add_action( 'acf/include_fields', function() {
 				'value' => 'default',
 			),
 		),
+		array(
+			array(
+				'param' => 'page_template',
+				'operator' => '==',
+				'value' => 'front-page.php',
+			),
+		),
 	),
 	'menu_order' => 0,
 	'position' => 'normal',

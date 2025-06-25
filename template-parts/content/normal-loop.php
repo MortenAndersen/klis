@@ -6,7 +6,7 @@ if (get_field('pre_title')){
 the_title('<h1>', '</h1>');
 echo '</div>';
 
- $tjek1 = get_field('video');
+ $tjek1 = get_field('youtube_url');
  $tjek2 = get_field('aside');
  $tjek3 = have_rows('filer');
 echo '<main class="l-wrap">';

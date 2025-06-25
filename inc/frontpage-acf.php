@@ -9,11 +9,11 @@ add_action( 'acf/include_fields', function() {
 	'title' => 'Klis Frontpage',
 	'fields' => array(
 		array(
-			'key' => 'field_6683b570a9af8',
-			'label' => 'Video',
-			'name' => 'video',
+			'key' => 'field_685bff579fc20',
+			'label' => 'Youtube url',
+			'name' => 'youtube_url',
 			'aria-label' => '',
-			'type' => 'oembed',
+			'type' => 'url',
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
@@ -22,8 +22,9 @@ add_action( 'acf/include_fields', function() {
 				'class' => '',
 				'id' => '',
 			),
-			'width' => '',
-			'height' => '',
+			'default_value' => '',
+			'allow_in_bindings' => 0,
+			'placeholder' => '',
 		),
 	),
 	'location' => array(

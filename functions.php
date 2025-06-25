@@ -85,6 +85,7 @@ function klis_localize_theme() {
 add_action('after_setup_theme', 'klis_localize_theme');
 
 // Theme functions
+
 //require get_parent_theme_file_path('/inc/header-info.php');
 
 // Klis functions
