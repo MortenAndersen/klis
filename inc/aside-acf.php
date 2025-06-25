@@ -9,23 +9,6 @@ add_action( 'acf/include_fields', function() {
 	'title' => 'Klis Aside',
 	'fields' => array(
 		array(
-			'key' => 'field_667ea19ef7896',
-			'label' => 'Video',
-			'name' => 'video',
-			'aria-label' => '',
-			'type' => 'oembed',
-			'instructions' => '',
-			'required' => 0,
-			'conditional_logic' => 0,
-			'wrapper' => array(
-				'width' => '',
-				'class' => '',
-				'id' => '',
-			),
-			'width' => '',
-			'height' => '',
-		),
-		array(
 			'key' => 'field_685ab8e7fc23c',
 			'label' => 'Youtube url',
 			'name' => 'youtube_url',
