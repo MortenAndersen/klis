@@ -66,3 +66,20 @@ if ($youtube_url) {
 
 
 
+$vimeo_url = get_field('vimeo_url');
+if ($vimeo_url) {
+    // Ekstraher ID fra URL'en
+    preg_match('/vimeo\.com\/(\d+)/', $vimeo_url, $matches);
+    $video_id = $matches[1] ?? null;
+
+    if ($video_id) {
+        ?>
+        <div class=" video vimeo-wrapper">
+            <iframe src="https://player.vimeo.com/video/<?php echo esc_attr($video_id); ?>" 
+                    width="640" height="360" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <?php
+    }
+}
+
+
