@@ -51,7 +51,9 @@ $the_query = new WP_Query( $args );
   echo '<a href="' . $link_url . '" target="' . $link_target . '" class="card__link" title="' . $link_title . '" style="background-image: url(' . $boble_img_url . ')">';
   echo '<div class="card__txt">';
   echo '<div class="card__title">' . get_the_title() . '</div>';
-  echo ' <div class="card__body">' . get_the_content() . '</div>';
+  if ( get_the_content() ) {
+    echo ' <div class="card__body">' . get_the_content() . '</div>';
+  }
   echo '<div class="card__more">Læs mere her</div>';
 echo '</div>';
         
