@@ -6,11 +6,13 @@ if (get_field('pre_title')){
 the_title('<h1>', '</h1>');
 echo '</div>';
 
- $tjek1 = get_field('youtube_url');
- $tjek2 = get_field('aside');
- $tjek3 = have_rows('filer');
+    $tjek0 = get_field('vimeo_url');
+    $tjek1 = get_field('youtube_url');
+    $tjek2 = get_field('aside');
+    $tjek3 = have_rows('filer');
+
 echo '<main class="l-wrap">';
-if ($tjek1 || $tjek2 || $tjek3){
+if ($tjek0 || $tjek1 || $tjek2 || $tjek3){
     echo '<div class="content grid aside">';
 } else {
     echo '<div class="content">';
@@ -24,7 +26,7 @@ if ($tjek1 || $tjek2 || $tjek3){
             klis_content();
         echo '</article>';
        
-        if ($tjek1 || $tjek2 || $tjek3){
+        if ($tjek0 || $tjek1 || $tjek2 || $tjek3){
             echo '<aside>';
             get_template_part('template-parts/content/video', 'loop');
             get_template_part('template-parts/aside/filer', 'loop');
