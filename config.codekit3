@@ -367,6 +367,14 @@
       "oAP" : "\/login.css.map",
       "oF" : 0
     },
+    "\/nyt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/nyt",
+      "oF" : 0
+    },
     "\/old-login.html" : {
       "cB" : 0,
       "ft" : 8192,
