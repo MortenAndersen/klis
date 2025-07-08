@@ -103,7 +103,7 @@ nav {
 
 @media (width > 550px) {
   .menu-con {
-    margin-block: 0;
+    border-radius: 1rem;
   }
 
   .main-menu {
@@ -167,7 +167,7 @@ nav {
   }
 
   .menu__info {
-
+    border-radius: 1rem;
     grid-template-columns: 1fr 1fr;
 
   }
