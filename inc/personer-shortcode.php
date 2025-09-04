@@ -56,6 +56,11 @@ function webspeed_personer($atts) {
 			echo '<div class="person-body">';
 
     the_title('<h3>', '</h3>');
+		if ( has_post_thumbnail() ) {
+			echo '<div class="persone-pic" style="margin-block:1rem;">';
+			the_post_thumbnail('large');
+			echo '</div>';
+		}
     echo '<ul>';
     if (get_field('funktion')) {
 		  echo '<li class="funktion">' . get_field('funktion') . '</li>';
